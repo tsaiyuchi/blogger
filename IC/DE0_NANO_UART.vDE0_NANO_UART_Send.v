@@ -7,7 +7,7 @@
 `define clkdiv_50m_to_115k 217
 
 
-module DE0_NANO_UART(
+module DE0_NANO_UART_Send(
 
 	//////////// CLOCK //////////
 	CLOCK_50,
