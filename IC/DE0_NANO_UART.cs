@@ -12,7 +12,7 @@ namespace DE0_NANO_UART
 
         static void Main(string[] args)
         {
-            System.IO.Ports.SerialPort  comport = new SerialPort("COM4");
+            SerialPort  comport = new SerialPort("COM4");
 
             comport.BaudRate = 115200;
             comport.Parity = Parity.None;
